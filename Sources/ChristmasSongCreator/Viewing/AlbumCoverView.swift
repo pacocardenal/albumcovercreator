@@ -38,7 +38,7 @@ public struct AlbumCoverView: View {
     }
 }
 
-struct SlothView_Previews: PreviewProvider {
+struct AlbumCoverView_Previews: PreviewProvider {
     @State static var albumCover = AlbumCover(title: "Album Cover Title", color: .yellow, background: .fire)
     
     static var previews: some View {

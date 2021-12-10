@@ -1,0 +1,15 @@
+@Tutorials(name: "AlbumCoverCreator") {
+    @Intro(title: "Meet AlbumCoverCreator") {
+        Create and view beautiful album covers using AlbumCoverCreator. Get started with AlbumCoverCreator by building the demo app _Albumy_.
+        
+        @Image(source: albumcovercreator-intro.png, alt: "An illustration of a square album cover, displaying as a puzzle, with different pieces, colours and backgrounds — you can create something like that in this collection of tutorials.")
+    }
+    
+    @Chapter(name: "AlbumCreator Essentials") {
+        @Image(source: chapter1_albumcreatorEssentials.png, alt: "A wireframe of an app interface that has three different screens, showing some schematic fields to host text and images.")
+        
+        Create custom album covers and edit their attributes using AlbumCoverCreator.
+        
+        @TutorialReference(tutorial: "doc:Creating-Custom-Album-Covers")
+    }
+}

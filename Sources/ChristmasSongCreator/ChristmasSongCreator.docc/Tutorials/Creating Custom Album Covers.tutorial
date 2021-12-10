@@ -1,0 +1,45 @@
+@Tutorial(time: 30) {
+    @Intro(title: "Creating Custom Album Covers") {
+        This tutorial guides you through building _Albumy_ — an app for creating custom album covers. You'll start by building the album cover creation view.
+        
+        @Image(source: creating-intro.png, alt: "A black background with colorized musical notes.")
+    }
+    
+    @Section(title: "Create a new project and add AlbumCoverCreator") {
+        @ContentAndMedia {
+            Create and configure an Xcode project that uses AlbumCoverCreator.
+            
+            @Image(source: 01-creating-section1.png, alt: "A black background with colorized musical notes.")
+        }
+        
+        @Steps {
+            @Step {
+                Create a new project using the iOS App template.
+                
+                @Image(source: hand-holding-the-number-1.png, alt: "A hand holding the number 1.")
+            }
+            
+            @Step {
+                Enter "Albumy" as the Product Name. 
+                
+                @Image(source: hand-holding-the-number-2.png, alt: "A hand holding the number 2.")
+            }
+            
+            @Step {
+                Select "SwiftUI" from the Interface pop-up menu and "SwiftUI App" from the Life Cycle pop-up menu, then click Next. Choose a location to save the Albumy project on your Mac.
+                
+                @Image(source: hand-holding-the-number-3.png, alt: "A hand holding the number 3.")
+            }
+            
+            @Comment {
+                This is an example of a comment within a tutorial. The text contained within a `@Comment` directive does not get rendered in a built tutorial.
+            } 
+            
+            @Step {
+                Add `AlbumCoverCreator` as a dependency to the project.
+                
+                @Image(source: hand-holding-the-number-4.png, alt:"A hand holding the number 4.")
+            }
+        }
+    }
+}
